@@ -15,7 +15,7 @@ npm install
 npm run start
 ```
 
-...to start mongo and insert new records
+...to connect mongo and insert new records
 ```bash
 meteor mongo
 db.records.insert({title:"New Record"})
